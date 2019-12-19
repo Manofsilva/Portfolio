@@ -1,8 +1,7 @@
 header {
-    background: url("../../img/studentAvatar.jpg");
+    background: url("../img/studentAvatar.jpg");
     background-size: cover;
     background-position: center;
     min-height: 1000px;
     color: red;
       };
-      
