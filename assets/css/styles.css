@@ -4,4 +4,10 @@ header {
     background-position: center;
     min-height: 1000px;
     color: red;
-      };
+      }
+/* add a media query for when the page is seen on smaller screens */
+@media screen and (max-width: 670px){
+  header{
+    min-height: 500px;
+  }
+}
