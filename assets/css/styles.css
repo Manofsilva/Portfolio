@@ -11,3 +11,7 @@ header {
     min-height: 500px;
   }
 }
+.section{
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+}
