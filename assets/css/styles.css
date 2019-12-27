@@ -8,6 +8,21 @@ header {
     min-height: 1000px;
     color: red;
       }
+
+#image {
+  height: 3rem;
+  width: 3rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  border-radius: 50%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.right {
+  margin-right: 1rem;
+}
 /* add a media query for when the page is seen on smaller screens */
 @media screen and (max-width: 670px){
   header{

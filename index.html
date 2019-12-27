@@ -15,15 +15,15 @@
 
   <title>Cesar Silva's Portfolio</title>
 
-  
-  
 </head>
 <body>
 
   <!-- navbar -->
     <header>
         <nav class="nav-wrapper">
-            <div class="container">
+                <span>
+                    <img src="./assets/img/studentAvatar.jpg" id="image" alt="">
+                </span>
                 <a href="#" class="brand-logo" id="home">Cesar Silva</a>
                 <a href="" class="sidenav-trigger" data-target="mobile-menu">
                     <i class="material-icons">menu</i>
@@ -34,28 +34,55 @@
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Instagram">
-                        <i class="fab fa-instagram"></i>
-                    </a></li>
-                    <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4"  data-tooltip="GitHub">
-                        <i class="fab fa-github"></i>
-                    </a></li>
-                    <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4"  data-tooltip="Linkedin">
-                        <i class="fab fa-linkedin"></i>
-                    </a></li>
                 </ul>
                 <!-- create mobile menu by creating another ul -->
                 <ul class="sidenav grey lighten-2" id="mobile-menu">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Projects</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
-            </div>
         </nav>
     </header>
 
-  <!-- photo / grid -->
+  
+<!-- services / tabs -->
 <section class="container section scrollspy" id="about">
+    <div class="row">
+        <div class="col s12 l4 animated">
+            <h2 class="indigo-text text-darken-4">What I do...</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim blanditiis vitae dolor optio itaque esse quidem. Ab, pariatur quos! Molestias quisquam eius repudiandae asperiores quo magni velit atque iste eos.</p>
+        </div>
+        <div class="col s12 l6 offset-l2">
+            <ul class="tabs">
+                <li class="tab col s6">
+                    <a href="#photographing" class="indigo-text text-darken-4">photography</a>
+                </li>
+                <li class="tab col s6">
+                    <a href="#editing" class="indigo-text text-darken-4">Editing</a>
+                </li>
+            </ul>
+            <div class="col12">
+                <p class="flow-text indigo-text text-darken-4" id="photography">PHOTOGRAPHY</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid doloribus quod quidem eum pariatur, temporibus illo? Tenetur iusto laudantium in, aut quos vero blanditiis, tempora perspiciatis, aliquam nisi dignissimos ea.</p>
+            </div>
+            <div class="col12">
+                <p class="flow-text indigo-text text-darken-4" id="editing">EDITING</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid doloribus quod quidem eum pariatur, temporibus illo? Tenetur iusto laudantium in, aut quos vero blanditiis, tempora perspiciatis, aliquam nisi dignissimos ea.</p>
+            </div>
+        </div>
+    </div>
+</section>
+  <!-- parallax -->
+  <div class="parallax-container">
+      <div class="parallax">
+          <img src="./assets/img/keys.png" alt="" class="responsive-img">
+      </div>
+  </div>
+
+  <!-- photo / grid -->
+<section class="container section scrollspy" id="projects">
     <div class="row">
         <div class="col s12 l4">
             <img src="./assets/img/studentAvatar.jpg" alt="" class="responsive-img materialboxed">
@@ -85,40 +112,6 @@
     </div>
 </section>
 
-  <!-- parallax -->
-  <div class="parallax-container">
-      <div class="parallax">
-          <img src="./assets/img/keys.png" alt="" class="responsive-img">
-      </div>
-  </div>
-
-  <!-- services / tabs -->
-<section class="container section scrollspy" id="services">
-    <div class="row">
-        <div class="col s12 l4">
-            <h2 class="indigo-text text-darken-4">What I do...</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim blanditiis vitae dolor optio itaque esse quidem. Ab, pariatur quos! Molestias quisquam eius repudiandae asperiores quo magni velit atque iste eos.</p>
-        </div>
-        <div class="col s12 l6 offset-l2">
-            <ul class="tabs">
-                <li class="tab col s6">
-                    <a href="#photographing" class="indigo-text text-darken-4">photography</a>
-                </li>
-                <li class="tab col s6">
-                    <a href="#editing" class="indigo-text text-darken-4">Editing</a>
-                </li>
-            </ul>
-            <div class="col12">
-                <p class="flow-text indigo-text text-darken-4" id="photography">PHOTOGRAPHY</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid doloribus quod quidem eum pariatur, temporibus illo? Tenetur iusto laudantium in, aut quos vero blanditiis, tempora perspiciatis, aliquam nisi dignissimos ea.</p>
-            </div>
-            <div class="col12">
-                <p class="flow-text indigo-text text-darken-4" id="editing">EDITING</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid doloribus quod quidem eum pariatur, temporibus illo? Tenetur iusto laudantium in, aut quos vero blanditiis, tempora perspiciatis, aliquam nisi dignissimos ea.</p>
-            </div>
-        </div>
-    </div>
-</section>
   <!-- parallax -->
   <div class="parallax-container">
     <div class="parallax">
@@ -164,10 +157,15 @@
             <div class="col s12 l4 offset-l2">
                 <h5>Connect</h5>
                 <ul>
-                    <li><a href="#" class="grey-text text-lighten-3">Facebook</a></li>
-                    <li><a href="#" class="grey-text text-lighten-3">GitHub</a></li>
-                    <li><a href="#" class="grey-text text-lighten-3">Linkedin</a></li>
-                    <li><a href="#" class="grey-text text-lighten-3">Facebook</a></li>
+                    <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4"  data-tooltip="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a></li>
+                    <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4"  data-tooltip="Linkedin">
+                        <i class="fab fa-linkedin"></i>
+                    </a></li>
+                    <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a></li>
                 </ul>
             </div>
         </div>
