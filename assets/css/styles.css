@@ -37,9 +37,19 @@ header {
   height: 200px;
   background-size: cover;
 }
+#contact {
+  text-align: center;
+}
 .tabs .indicator {
   background-color: #1a237e;
 }
 .tabs .tab a:focus, .tabs .tab a:focus.active{
   background: transparent;
+}
+#socialLinks {
+  float: right;
+  padding: 40 px 5px 40px 0px;
+}
+.social {
+  font-size: 30px;
 }
