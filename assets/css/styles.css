@@ -7,7 +7,10 @@ header {
     background-position: center;
     min-height: 1000px;
     color: red;
-      }
+}
+body {
+  background-color: black;
+}
 
 #image {
   height: 3rem;
