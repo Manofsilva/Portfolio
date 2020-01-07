@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
     <!-- font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
         integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -13,7 +20,7 @@
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
 
-    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
+    
 
     <title>Cesar Silva's Portfolio</title>
 
@@ -53,17 +60,28 @@
     <!-- about -->
     <section class="container section scrollspy" id="about">
         <div class="row">
-            <div class="col s12 l4 animated">
+            <div class="col s12 l4 animated ">
                 <h2 class="indigo-text text-darken-4">About Me...</h2>
                 <hr>
-                <p>Hello! I am a full-stack web developer with an educational background in Foreign Lamguages &
+                <p>Hello! I am a full-stack web developer with an educational background in Foreign Languages &
                     Literatures. I strive to create dynamic, unique, and visually appealing websites and applications
                     that offer a great user experience. I am a lifelong student, constantly analyzing and utilizing
                     current and popular technologies while also studying and implementing new and upcoming methods. I
-                    specialize and enjoy frontend development, being especially proficient in Bootstrap 4 and currently
+                    enjoy frontend development, and currently
                     polishing my ReactJS skills. I also have experience in backend development creating Express servers,
                     working with SQL and Non-SQL databases, and using third party APIs on various projects.</p>
             </div>
+        </div>
+    </section>
+    <!-- parallax -->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="./assets/img/keys.png" alt="" class="responsive-img">
+        </div>
+    </div>
+
+    <!-- skills -->
+    <section class="container section scrollspy" id="skills">
             <div class="col s12 l6 offset-l2">
                 <ul class="tabs">
                     <li class="tab col s6">
@@ -75,9 +93,72 @@
                 </ul>
                 <div class="col12">
                     <p class="flow-text indigo-text text-darken-4" id="technology">TECHNOLOGY</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid doloribus quod quidem eum
-                        pariatur, temporibus illo? Tenetur iusto laudantium in, aut quos vero blanditiis, tempora
-                        perspiciatis, aliquam nisi dignissimos ea.</p>
+                        
+                        <div class="row justify-content-center skillWrapper">
+                            <div class="animatedParent col-sm-2">
+                                <div class="animated flipInX skillBox">
+                                    <i class="medium devicon-amazonwebservices-original colored"></i>
+                                    <h6 id="skillText">HTML5</h6>
+                                </div>
+                            </div>
+                            <div class="animatedParent col-sm-2">
+                                <div class="animated flipInX skillBox">
+                                    <i class="medium devicon-css3-plain" id="skillIcon"></i>
+                                    <h6 id="skillText">CSS3</h6>
+                                </div>
+                            </div>
+                            <div class="animatedParent col-sm-2">
+                                <div class="animated flipInX skillBox">
+                                    <i class="medium devicon-bootstrap-plain" id="skillIcon"></i>
+                                    <h6 id="skillText">Bootstrap 4</h6>
+                                </div>
+                            </div>
+                            <div class="animatedParent col-sm-2">
+                                <div class="animated flipInX skillBox">
+                                    <i class="medium devicon-nodejs-plain" id="skillIcon"></i>
+                                    <h6 id="skillText">Node.js</h6>
+                                </div>
+                            </div>
+                            <div class="animatedParent col-sm-2">
+                                <div class="animated flipInX skillBox">
+                                    <i class="medium devicon-express-original" id="skillIcon"></i>
+                                    <h6 id="skillText">Express</h6>
+                                </div>
+                            </div>
+                            <div class="animatedParent col-sm-2">
+                                <div class="animated flipInX skillBox">
+                                    <i class="medium devicon-javascript-plain" id="skillIcon"></i>
+                                    <h6 id="skillText">Javascript</h6>
+                                </div>
+                            </div>
+                            <div class="animatedParent col-sm-2">
+                                <div class="animated flipInX skillBox">
+                                    <i class="medium devicon-jquery-plain" id="skillIcon"></i>
+                                    <h6 id="skillText">jQuery</h6>
+                                </div>
+                            </div>
+                            <div class="animatedParent col-sm-2">
+                                <div class="animated flipInX skillBox">
+                                    <i class="medium devicon-react-plain" id="skillIcon"></i>
+                                    <h6 id="skillText">ReactJS</h6>
+                                </div>
+                            </div>
+                            <div class="animatedParent col-sm-2">
+                                <div class="animated flipInX skillBox">
+                                    <i class="medium devicon-mongodb-plain" id="skillIcon"></i>
+                                    <h6 id="skillText">MongoDB</h6>
+                                </div>
+                            </div>
+                            <div class="animatedParent col-sm-2">
+                                <div class="animated flipInX skillBox">
+                                    <i class="medium devicon-mysql-plain" id="skillIcon"></i>
+                                    <h6 id="skillText">MySQL</h6>
+                                </div>
+                            </div>
+                
+                        </div>
+                        
+                    </div>
                 </div>
                 <div class="col12">
                     <p class="flow-text indigo-text text-darken-4" id="education">EDUCATION</p>
@@ -144,9 +225,7 @@
         <div class="row">
             <div class="col s12 l5">
                 <h2 class="indigo-text text-dark-4">Get in Touch</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident minima cumque in et enim voluptas
-                    non fugit libero excepturi, placeat dolores voluptate recusandae ullam quis quam repellat nobis
-                    repudiandae eaque.</p>
+                
             </div>
             <div class="col s12 l5 offset-l2">
                 <form action="">
@@ -159,10 +238,6 @@
                         <i class="material-icons prefix">message</i>
                         <textarea id="message" class="materialize-textarea"></textarea>
                         <label for="message">Your Message</label>
-                    </div>
-                    <div class="input-field">
-                        <input type="text" class="datepicker" id="date">
-                        <label for="date">Choose the Date You Would Like to Meet</label>
                     </div>
                 </form>
             </div>
