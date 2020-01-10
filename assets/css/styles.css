@@ -1,6 +1,9 @@
 .nav-wrapper {
   background-color: #0b0c1085;
 }
+.navName {
+  float: left;
+}
 header {
     background: url("../img/studentAvatar.jpg");
     background-size: cover;
