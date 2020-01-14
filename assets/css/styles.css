@@ -27,9 +27,12 @@ h2 {
   vertical-align: middle;
   display: inline-block;
 }
-
 .right {
   margin-right: 1rem;
+}
+.animatedParent {
+  justify-content: center;
+    text-align: center;
 }
 /* add a media query for when the page is seen on smaller screens */
 @media screen and (max-width: 670px){
