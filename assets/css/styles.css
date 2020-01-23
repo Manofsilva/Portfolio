@@ -18,7 +18,23 @@ h2 {
   text-align: center;
 }
 hr {
-  background-color: white;
+  background-color: antiquewhite;
+}
+p {
+  color: antiquewhite;
+}
+i {
+  color: antiquewhite;
+}
+.txt {
+  font-family: Fredoka One, cursive;
+  letter-spacing: 3px;
+  font-size: xx-large;
+}
+.green-text {
+  font-family: Fredoka One, cursive;
+  letter-spacing: 3px;
+  font-size: xx-large;
 }
 #image {
   height: 3rem;
