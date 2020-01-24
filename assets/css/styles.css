@@ -36,6 +36,9 @@ i {
   letter-spacing: 3px;
   font-size: xx-large;
 }
+ul {
+  font-family: cursive;
+}
 #image {
   height: 3rem;
   width: 3rem;
