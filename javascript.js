@@ -1,24 +1,21 @@
-$(document).ready(function(){
-   
-    $(window).scroll( function(){
-    
-       $(".fadeInBlockLeft, .fadeInBlockRight").each( function(i){
-            var bottom_of_object = $(this).position().top + $(this).outerHeight();
-            var bottom_of_window = $(window).scrollTop() + $(window).height();
-            
-    
-            bottom_of_window = bottom_of_window + 50;  
-          
-            if( bottom_of_window > bottom_of_object ){
-               
-                $(this).animate({'opacity':'1'},1000);
-                if($(this).hasClass('fadeInBlockLeft')){
-                	$(this).addClass("animate-inLeft");
-                }
-                if($(this).hasClass('fadeInBlockRight')){
-                	$(this).addClass("animate-inRight");
-                }
-            }
-         }); 
-       });
-     });
+
+$(document).ready(function() {
+    // Check if element is scrolled into view
+    function isScrolledIntoView(elem) {
+      var docViewTop = $(window).scrollTop();
+      var docViewBottom = docViewTop + $(window).height();
+  
+      var elemTop = $(elem).offset().top;
+      var elemBottom = elemTop + $(elem).height();
+  
+      return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+    }
+    // If element is scrolled into view, fade it in
+    $(window).scroll(function() {
+      $('.scroll-animations .animated').each(function() {
+        if (isScrolledIntoView(this) === true) {
+          $(this).addClass('fadeInLeft');
+        }
+      });
+    });
+  });
