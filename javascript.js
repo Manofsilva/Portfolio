@@ -10,7 +10,7 @@ $(document).ready(function() {
   
       return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
     }
-    // If element is scrolled into view, fade it in
+    // If .scroll-animations element is scrolled into view, fade it in left
     $(window).scroll(function() {
       $('.scroll-animations .animated').each(function() {
         if (isScrolledIntoView(this) === true) {
@@ -19,3 +19,5 @@ $(document).ready(function() {
       });
     });
   });
+
+  
