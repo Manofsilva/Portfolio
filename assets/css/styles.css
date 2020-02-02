@@ -162,6 +162,12 @@ ul {
   margin: 0px 60px;
   border-radius: 12px;
 }
+.moreProjects {
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  margin-top: inherit;
+}
 .glow-on-hover {
   width: 220px;
   height: 50px;
