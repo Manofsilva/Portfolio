@@ -16,8 +16,8 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
 
     <!-- Google Font -->
@@ -76,22 +76,30 @@
                     <h2 class="green-text text-accent-1" id="about">About Me...</h2>
                     <hr>
                 </div>
-                
+
             </div>
             <div data-aos="slide-right">
-                <p>Hello! I am a full-stack web developer with an educational background in Foreign Languages &
-                    Literatures. I strive to create dynamic, unique, and visually appealing websites and applications
-                    that offer a great user experience. I am a lifelong student, constantly analyzing and utilizing
+                <p class="about-text">Hello! I am a full-stack web developer with an educational background in Foreign
+                    Languages &
+                    Literatures. My background in the humanities and years of education and research as a graduate
+                    student along with the desire to help people find solutions has driven me to pursue a career change
+                    as a web developer. I strive to create dynamic, unique, effective and visually appealing websites
+                    and applications
+                    that offer a great user experience.
+                    <br>
+                    <br>
+                    I am a lifelong student, constantly learning and utilizing
                     current and popular technologies while also studying and implementing new and upcoming methods. I
                     enjoy frontend development, and currently
                     polishing my ReactJS skills. I also have experience in backend development creating Express servers,
-                    working with SQL and Non-SQL databases, and using third party APIs on various projects.</p>
+                    working with SQL and Non-SQL databases, and using third party APIs on various projects on an
+                    individual and team basis.</p>
             </div>
         </div>
     </section>
     <!-- parallax -->
     <div class="parallax-container">
-        <div class="parallax">
+        <div class="parallax" id="keys">
             <img src="./assets/img/keys.png" alt="" class="responsive-img">
         </div>
     </div>
@@ -104,12 +112,12 @@
                     <h2 class="green-text text-accent-1 skills">SKILLS</h2>
                     <hr>
                 </div>
-                
+
             </div>
         </div>
         <div id="#technology" class="col12">
             <div class="scroll-animation">
-                <div class="row justify-content-center skillWrapper"  data-aos="zoom-out-up">
+                <div class="row justify-content-center skillWrapper" data-aos="zoom-out-up">
                     <div class="animatedParent col-sm-2">
                         <div class="animated">
                             <i class="medium devicon-html5-plain colored"></i>
@@ -173,7 +181,7 @@
                 </div>
 
             </div>
-            
+
         </div>
         </div>
         </div>
@@ -183,7 +191,7 @@
     <!-- parallax -->
     <div class="parallax-container">
         <div class="parallax">
-            <img src="./assets/img/keys.png" alt="" class="responsive-img">
+            <img src="./assets/img/stars.jpg" alt="" class="responsive-img">
         </div>
     </div>
 
@@ -196,52 +204,84 @@
                     <h2 class="green-text text-accent-1 projects">RECENT PROJECTS</h2>
                     <hr>
                 </div>
-                
+
             </div>
         </div>
 
         <div class="row">
             <div class="col s12 l4">
                 <div class="scroll-animations">
-                    <div class="animated" data-aos="slide-left">
-                        <img src="./assets/img/studentAvatar.jpg" alt="" class="responsive-img materialboxed">
+                    <div class="animated card" data-aos="slide-left">
+                        <div class="img-container">
+                            <img src="./assets/img/SeeattleScreenShot.jpg" alt="" class="responsive-img">
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col s12 l6 offset-l1">
                 <div class="scroll-animations">
                     <div class="animated" data-aos="slide-left">
-                        <h2 class="green-text text-accent-1">Project 1</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, labore architecto nihil fugit sed,
-                            animi ducimus, harum odio quisquam facilis ea cupiditate fugiat vero. Aut corporis consequatur
-                            quasi
-                            neque placeat?
+                        <h2 class="green-text text-accent-1">See.attle</h2>
+                        <p>This is an itinenerary management application geared towards tourists new to Seattle. It
+                            gives them the ability to create and manage a list of the city’s tourist attractions.
+
+                            Tourists using this application are able to manage their sightseeing adventures by searching
+                            for their attraction and deciding which day makes the most sense for them!
                         </p>
+                        <p>
+                            <strong style="font-weight: 700; font-size: larger;">Technologies:</strong>
+                            HTML, CSS, JavaScript, Node.js, Ajax, MySQL, Sequelize, Express, Google Maps API, Google
+                            Places API
+                        </p>
+                        <span>
+                            <a href="https://mighty-falls-56541.herokuapp.com/" target="_blank">
+                                <button style="font-size: medium;" class="buttonLink">View Live Site
+                                    <i class="fa fa-external-link"></i>
+                            </a>
+                            <span>
+                                <a href="https://github.com/Manofsilva/Seeattle" target="_blank">
+                                    <button style="font-size: medium;" class="buttonLink">View Repository
+                                        <i class="fa fa-external-link"></i>
+                                </a>
+                            </span>
+                        </span>
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="row">
-            <div class="col s12 l6 offset-l1">
+            <div class="col s12 l6 offset-12">
                 <div class="scroll">
-                <div class="animated" data-aos="slide-right">
-                    <h2 class="green-text text-accent-1">Project 2</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, labore architecto nihil fugit sed,
-                        animi ducimus, harum odio quisquam facilis ea cupiditate fugiat vero. Aut corporis consequatur
-                        quasi
-                        neque placeat?
-                    </p>
+                    <div class="animated" data-aos="slide-right">
+                        <h2 class="green-text text-accent-1">(React) Book Search</h2>
+                        <p>User can search for books via the Google Books API and render them in the app. User has the option to "View" a book, bringing them to the book on Google Books, "Save" a book, saving it to the Mongo database or "Delete" a book which removes it from the Mongo database. Utilizes React lifecycle methods.
+                        </p>
+                        <P>
+                            <strong style="font-weight: 700; font-size: larger;">Technologies:</strong>
+                            HTML, CSS, Javascript, MongoDB, Express, React, Node.js, GoogleBooks API
+                        </P>
+                        <span>
+                            <a href="https://quiet-coast-82812.herokuapp.com/" target="_blank">
+                                <button style="font-size: medium;" class="buttonLink">View Live Site
+                                    <i class="fa fa-external-link"></i>
+                            </a>
+                            <span>
+                                <a href="https://github.com/Manofsilva/React_Google_Books_Search" target="_blank">
+                                    <button style="font-size: medium;" class="buttonLink">View Repository
+                                        <i class="fa fa-external-link"></i>
+                                </a>
+                            </span>
+                        </span>
+                    </div>
                 </div>
-            </div>
             </div>
             <div class="col s12 l4 right-align offset-l1">
                 <div class="scroll">
                     <div class="animated" data-aos="slide-right">
-                        <img src="./assets/img/studentAvatar.jpg" alt="" class="responsive-img materialboxed">
+                        <img src="./assets/img/googleBooks.jpg" alt="" class="responsive-img">
                     </div>
                 </div>
-                
             </div>
         </div>
 
@@ -249,23 +289,35 @@
             <div class="col s12 l4">
                 <div class="scroll-animations">
                     <div class="animated" data-aos="slide-left">
-                        <img src="./assets/img/studentAvatar.jpg" alt="" class="responsive-img materialboxed">
+                        <img src="./assets/img/kindler.jpg" alt="" class="responsive-img">
                     </div>
                 </div>
-                
+
             </div>
             <div class="col s12 l6 offset-l1">
                 <div class="scroll-animations">
                     <div class="animated" data-aos="slide-left">
-                        <h2 class="green-text text-accent-1">Project 3</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, labore architecto nihil fugit sed,
-                            animi ducimus, harum odio quisquam facilis ea cupiditate fugiat vero. Aut corporis consequatur
-                            quasi
-                            neque placeat?
+                        <h2 class="green-text text-accent-1">Kindler</h2>
+                        <p>Kindler is a mobile application built using React Native, and developed by a team of 3. The goal of this application is to provide individuals and those in relationships with planning tools to empower them during the decision making process of going out on a date with someone. The idea is to provide fun and varied options for couples in established relationships, as well as people dating for the first time. 
                         </p>
+                        <P>
+                            <strong style="font-weight: 700; font-size: larger;">Technologies:</strong>
+                            HTML, CSS, Javascript, MongoDB,Mongoose, Express, React, React Native, Node.js, Google Authentication, Expo
+                        </P>
+                        <span>
+                            <a href="https://www.youtube.com/watch?v=9QN2OPpL3Kc" target="_blank">
+                                <button style="font-size: medium;" class="buttonLink">View Recording
+                                    <i class="fa fa-external-link"></i>
+                            </a>
+                            <span>
+                                <a href="https://github.com/Manofsilva/Kindler" target="_blank">
+                                    <button style="font-size: medium;" class="buttonLink">View Repository
+                                        <i class="fa fa-external-link"></i>
+                                </a>
+                            </span>
+                        </span>
                     </div>
                 </div>
-                
             </div>
         </div>
     </section>
@@ -281,20 +333,29 @@
         <div class="row">
             <div class="col s12 l5">
                 <h2 class="green-text text-accent-1">Get in Touch</h2>
-                <h6 style="color: palevioletred; font-family: Indie Flower; letter-spacing: 1px;"> I'd love to hear from you </h6>
+                <h6 style="color: palevioletred; font-family: Indie Flower; letter-spacing: 1px;"> I'd love to hear from
+                    you </h6>
             </div>
             <div class="col s12 l5 offset-l2">
-                <form action="">
+                <form id="contact-form" action="https://formspree.io/mnqjwenp" method="POST">
+                    <div class="input-field">
+                        <i class="material-icons prefix">mood</i>
+                        <input type="text" id="input_text" style="color: antiquewhite">
+                        <label for="email">Your Name</label>
+                    </div>
                     <div class="input-field">
                         <i class="material-icons prefix">email</i>
-                        <input type="email" id="email">
-                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="_replyto" style="color: antiquewhite">
+                        <label for="email">Email</label>
                     </div>
+
                     <div class="input-field">
                         <i class="material-icons prefix">message</i>
-                        <textarea id="message" class="materialize-textarea"></textarea>
+                        <textarea id="message" class="materialize-textarea" name="message"
+                            style="color: antiquewhite"></textarea>
                         <label for="message">Your Message</label>
                     </div>
+                    <button type="submit" class="waves-effect waves-red">Send</button>
                 </form>
             </div>
         </div>
@@ -312,6 +373,10 @@
                         <p id="copyrightText">
                             <i class="far fa-copyright"> Copyright 2020</i>
                         </p>
+                    </span>
+                    <span id="last_message" style="color: antiquewhite;">
+                        Made with queer latino<i class="material-icons prefix heart">favorite_border</i> but especially
+                        with lots of <i class="material-icons prefix code">code</i>
                     </span>
                     <span id="socialLinks">
                         <a class="social" href="https://www.linkedin.com/in/cesar-silva-40729a165/" target="_blank"> <i
@@ -344,7 +409,7 @@
             $('.datepicker').datepicker();
             $('.tooltipped').tooltip();
             $('.scrollspy').scrollSpy();
-        })
+        });
     </script>
 
     <script src="javascript.js"></script>
@@ -353,7 +418,7 @@
         AOS.init({
             duration: 2000
         });
-      </script>
+    </script>
 </body>
 
 </html>

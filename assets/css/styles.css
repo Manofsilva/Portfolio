@@ -77,9 +77,11 @@ ul {
 .section{
   padding-top: 4vw;
   padding-bottom: 4vw;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
-.parallax-container {
-  height: 200px;
+.parallax {
+  height: 500px;
   background-size: cover;
 }
 #contact {
@@ -93,10 +95,10 @@ ul {
 }
 #socialLinks {
   float: right;
-  padding: 40 px 5px 40px 0px;
+  padding: 40 px 10px 40px 0px;
 }
 .social {
-  font-size: 30px;
+  font-size: 40px;
 }
 
 
@@ -113,4 +115,50 @@ ul {
   text-align: center;
   color: #FFF;
   font-size: 3em;
+}
+.input-field label {
+  color: white;
+}
+.heart {
+  color: red;
+}
+.code {
+  color: orchid;
+}
+#last_message {
+  float: left;
+}
+.skills {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.skillwrapper {
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+#about {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.about-text {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.projects {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#projects {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.heart {
+  vertical-align: text-bottom;
+}
+.code {
+  vertical-align: bottom;
+}
+.buttonLink {
+  margin: 0px 60px;
+  border-radius: 12px;
 }
