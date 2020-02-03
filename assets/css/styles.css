@@ -81,13 +81,10 @@ ul {
   margin-bottom: 5rem;
 }
 .parallax {
-  height: 300px;
-  background-size: cover;
-}
-.parallax bottom {
   height: 500px;
   background-size: cover;
 }
+
 #contact {
   text-align: center;
 }
