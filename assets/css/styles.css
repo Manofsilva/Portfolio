@@ -5,10 +5,10 @@
   float: left;
 }
 header {
-    background: url("../img/West.jpg");
+    background: url("../img/webDesign.jpg");
     background-size: cover;
     background-position: center;
-    min-height: 1000px;
+    min-height: 500px;
     color: red;
 }
 body {
@@ -142,7 +142,7 @@ ul {
   margin-bottom: 50px;
 }
 .about-text {
-  margin-top: 50px;
+  margin-top: 25px;
   margin-bottom: 50px;
 }
 .projects {
